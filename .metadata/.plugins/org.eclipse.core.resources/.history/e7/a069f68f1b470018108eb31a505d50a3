@@ -1,0 +1,24 @@
+package test;
+
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+import main.Solution;
+
+public class SolutionTest {
+	
+	@Test
+	public void reverse(){
+		
+		 System.out.println("array reverse ...");
+		Solution s = new Solution();
+		int[] arr = {2,3,4,1};
+		int[] expecteds = {2,3,4,1};
+		int [] actuals =s.reverseArray(arr);
+		assertArrayEquals(expecteds, actuals);
+
+	}
+
+}

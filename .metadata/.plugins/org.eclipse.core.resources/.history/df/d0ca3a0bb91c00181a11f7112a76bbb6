@@ -1,0 +1,34 @@
+import java.util.Arrays;
+import java.util.Formatter;
+import java.util.Scanner;
+
+public class Principal{
+
+	
+	/*public  Hit obtainValue(){
+		return () -> System.out.println("You hit it!");
+			
+		}
+	*/
+	public static void main(String[] args) {
+		
+		
+		Scanner scan = new Scanner(System.in);
+		Scanner lineTokenizer;
+		int lineNum = 0;
+		
+		
+		double tip= (20/100);
+		 
+		
+		 
+		System.out.println(tip);
+		//Hit h= () -> System.out.println("You hit it!");
+		//h.hit();
+	}
+	
+	interface Hit
+	 {
+	  void hit();
+	 }
+}

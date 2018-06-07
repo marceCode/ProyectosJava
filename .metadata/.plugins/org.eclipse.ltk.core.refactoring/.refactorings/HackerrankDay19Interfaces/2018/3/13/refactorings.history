@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;es.hackerrank.day17.interfaces&apos; to &apos;HackerrankDay20Sorting/src&apos;&#x0D;&#x0A;- Original project: &apos;HackerrankDay19Interfaces&apos;&#x0D;&#x0A;- Destination element: &apos;HackerrankDay20Sorting/src&apos;&#x0D;&#x0A;- Original element: &apos;HackerrankDay19Interfaces/src/es.hackerrank.day17.interfaces&apos;" description="Copy package" destination="=HackerrankDay20Sorting/src" element1="/src&lt;es.hackerrank.day17.interfaces" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1522225888748" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;es.hackerrank.day15.LinkedList&apos; to &apos;es.hackerrank.day15.linkedList&apos;&#x0D;&#x0A;- Original project: &apos;HackerrankDay15LinkedList&apos;&#x0D;&#x0A;- Original element: &apos;HackerrankDay15LinkedList/src/es.hackerrank.day15.LinkedList&apos;&#x0D;&#x0A;- Renamed element: &apos;HackerrankDay15LinkedList/src/es.hackerrank.day15.linkedList&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;es.hackerrank.day15.LinkedList&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;es.hackerrank.day15.LinkedList" name="es.hackerrank.day15.linkedList" qualified="false" references="true" stamp="1520963727148" textual="false" version="1.0"/>
+</session>

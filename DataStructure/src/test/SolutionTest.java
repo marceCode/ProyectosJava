@@ -1,0 +1,43 @@
+package test;
+
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+import main.Solution;
+
+public class SolutionTest {
+	
+	@Test
+	public void reverse(){
+		
+		System.out.println("array reverse ...Expected Output 2, 3, 4, 1 ");
+		int[] arr = {1, 4, 3, 2};
+		int[] expecteds = {2, 3, 4, 1};
+		int [] actuals =Solution.reverseArray(arr);
+		System.out.print("Actual Output ");
+		
+		for (int i = 0; i < actuals.length; i++) {
+			System.out.print(actuals[ i ] +",");
+		}
+		assertArrayEquals(expecteds, actuals);
+	}
+	
+	
+	@Test
+	public void reverse1(){
+		System.out.println("Input 8, 9, 4 ");
+		System.out.println("Expected Output 4, 9, 8 ");
+		int[] arr = {8, 9, 4};
+		int[] expecteds = {4, 9, 8};
+		int [] actuals =Solution.reverseArray(arr);
+		
+		System.out.print("Actual Output ");
+		for (int i = 0; i < actuals.length; i++) {
+			System.out.print(actuals[ i ] +",");
+		}
+		assertArrayEquals(expecteds, actuals);
+	}
+
+}

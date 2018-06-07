@@ -1,0 +1,15 @@
+package test;
+
+import org.junit.Test;
+
+public class SolutionTest {
+	
+	@Test
+	public void reverse(){
+		
+		 System.out.println("array reverse ...");
+		Solution s= new Solution
+
+	}
+
+}

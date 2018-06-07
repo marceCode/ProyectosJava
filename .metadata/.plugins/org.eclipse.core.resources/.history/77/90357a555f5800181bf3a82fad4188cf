@@ -1,0 +1,23 @@
+package es.com.java8tutorial.Java8tutorial;
+
+public class DefaultMethod implements PersonaA {
+
+	
+	
+
+	@Override
+	public void caminar() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		DefaultMethod app =new DefaultMethod();
+		app.caminar();
+		
+		
+		
+		
+	}
+}

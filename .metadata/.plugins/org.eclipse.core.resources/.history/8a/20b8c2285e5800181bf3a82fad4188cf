@@ -1,0 +1,40 @@
+package es.com.java8tutorial.Java8tutorial;
+
+public class Scopes {
+	
+	public double probarLocalVariable(){
+		
+		final double d3=3;
+		Operacion op= new Operacion() {
+			
+			@Override
+			public double calcularPromedio(double d1, double d2) {
+			
+				return d1+d2+d3;
+			}
+		};
+		
+		
+		Operacion operacion=(x,y) ->{
+			d3=x+y;
+			return d3;
+			
+		};
+		
+		return 0;
+		
+		
+		
+	}
+	
+	public double probarAtributosStaticVariables(){
+		return 0;}
+
+	
+	public static void main(String[] args) {
+		Scopes app= new Scopes();
+		System.out.println(app.probarLocalVariable());
+		
+		
+	}
+}

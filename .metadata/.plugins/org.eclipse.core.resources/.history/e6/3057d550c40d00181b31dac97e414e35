@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+public class Principal{
+
+	
+	public  Hit obtainValue(){
+		return () -> System.out.println("You hit it!");
+			
+		}
+	
+	public static void main(String[] args) {
+		
+		Principal ejemplo= new Principal();
+		ejemplo.obtainValue().hit();
+
+	}
+
+	
+	interface Hit
+	 {
+	  void hit();
+	 }
+}

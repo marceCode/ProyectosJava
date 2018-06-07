@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;es.hackerrank.day26.nestedLogic&apos;" deleteContents="true" description="Delete resource &apos;es.hackerrank.day26.nestedLogic&apos;" element1="/es.hackerrank.day26.nestedLogic" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1523724792056"/>
+</session>

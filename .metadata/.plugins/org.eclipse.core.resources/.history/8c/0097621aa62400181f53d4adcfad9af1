@@ -1,0 +1,16 @@
+package es.hackerrank.day13;
+
+ class MyBook extends Book{
+
+	MyBook(String title, String author) {
+		super(title, author);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+import java.util.Arrays;
+
+public class Ejemplos implements Hit{
+
+	
+	public  Hit obtainValue(){
+		return () -> System.out.println("You hit it!");
+			
+		}
+	
+	public static void main(String[] args) {
+		
+		Principal ejemplo= new Principal();
+		ejemplo.obtainValue().hit();
+
+	}
+
+	@Override
+	public void hit() {
+		
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 20 resources" deleteContents="false" description="Delete 20 resources" element1="/1_01_problema" element10="/HackerRankDay14Scope" element11="/HackerrankDay15LinkedList" element12="/HackerrankDay16Exceptions" element13="/HackerrankDay17MoreExceptions" element14="/HackerrankDay18QueuesAndStacks" element15="/HackerrankDay19Interfaces" element16="/HackerrankDay20Sorting" element17="/HackerrankDay21Generics" element18="/HackerrankDay22BinarySearchTree" element19="/HackerrankDay26NestedLogic" element2="/2_02_lambda_expressions" element20="/HackerrankDay28RegExPatternsDatabases" element3="/CursoJava8" element4="/DataStructure" element5="/ejemploJ8" element6="/EjemploPruebas" element7="/HackerRank" element8="/HackerRank2" element9="/HackerRankDay13" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="20" stamp="1526400109432"/>
+</session>

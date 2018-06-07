@@ -1,0 +1,32 @@
+package es.hackerrank.day26.nestedLogic;
+
+import java.util.Scanner;
+
+class Solution {
+
+	public static void main(String[] args) {
+		int fine;
+		 Scanner sc = new Scanner(System.in);
+	        int dayA = sc.nextInt();
+	        int monthA = sc.nextInt();
+	        int yearA = sc.nextInt();
+	        
+	        int dayE = sc.nextInt();
+	        int monthE = sc.nextInt();
+	        int yearE = sc.nextInt();
+	        
+	        System.out.println(dayA +" " + monthA+" " + yearA);
+	        System.out.println(dayE +" "+ monthE +" "+ yearE);
+	        
+	        if ((dayA <=31 && dayE <=31 ) && (monthA <=12 && monthE <=12 )&& (yearA <=3000 && yearE <=3000  )) {
+				
+	        	
+	        	
+	        	if (dayA <=dayE && monthA <= monthE && yearA <=yearE) {
+	        		fine=0;
+	        		System.out.println("fine " + fine);
+					
+				}
+			}
+    }
+}

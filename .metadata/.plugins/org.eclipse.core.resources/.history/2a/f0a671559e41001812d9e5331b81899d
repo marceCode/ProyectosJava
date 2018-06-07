@@ -1,0 +1,34 @@
+package es.hackerrank.day28.regExPatternsDatabases;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Solution {
+
+	
+	
+	public static void main(String[] args) {
+       
+		Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String datos=null;//^abc.*
+        Pattern pattern = Pattern.compile(".*@gmail.com");
+        String myDelimiter = " ";
+        if (n>=2 && n<=30) {
+			for (int i = 0; i <= n; i++) {
+				datos=sc.nextLine();
+				Matcher mat = pattern.matcher(datos);
+				
+				 if (mat.matches()) {
+					 System.out.println(datos.split(myDelimiter));
+			     } 
+				
+				
+			}
+		}
+	
+	}
+}

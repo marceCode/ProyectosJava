@@ -1,0 +1,7 @@
+package es.com.java8tutorial.Java8tutorial;
+
+public interface Operacion {
+
+	
+	public double  calcularPromedio(int i1, int i2);
+}

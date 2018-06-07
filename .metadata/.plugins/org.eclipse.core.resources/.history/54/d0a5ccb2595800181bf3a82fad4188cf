@@ -1,0 +1,10 @@
+package es.com.java8tutorial.Java8tutorial;
+
+public class LambdaApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

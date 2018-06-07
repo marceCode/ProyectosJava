@@ -1,0 +1,10 @@
+package es.com.java8tutorial.streams;
+
+import java.util.List;
+
+public class StreamsApp {
+	
+	private List<String> lista;
+	private List<String> numeros;
+
+}

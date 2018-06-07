@@ -1,0 +1,24 @@
+package es.hackerrank.day28.regExPatternsDatabases;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Solution {
+
+	
+	
+	public static void main(String[] args) {
+       
+		Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        ArrayList<String> lista = new ArrayList<String>();
+        if (n>=2 && n<=30) {
+			for (int i = 0; i < n; i++) {
+				lista.add(sc.next());
+				
+			}
+		}
+	
+	}
+}
